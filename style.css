@@ -1,0 +1,385 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alata', sans-serif;
+}
+button{
+    font-family: 'Alata', sans-serif;
+}
+#about{
+    margin-left: 1100px;
+}
+header{
+    display: flex;
+}
+.menut{
+    margin-right: 20px;
+    color:white;
+    display: block;
+}
+.menut:hover{
+    text-decoration: underline;
+}
+h2{
+    margin-left: 20px;
+    margin-top: 10px;
+    color:white;
+}
+#sec{
+    display: none;
+}
+#ham{
+    margin-right: 10px;
+    margin-top: 10px;
+    display: none;
+}
+.first{
+    background-image: url(./images/desktop/image-hero.jpg);
+    width:100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:500px;
+}
+h1{
+    border:1px solid white;
+    color:white;
+    font-size: 30px;
+    padding:15px;
+    width:500px;
+    font-size: 30px;
+    position:absolute;
+    top: 250px;
+    left:70px;
+    margin: 0px;
+}
+.second{
+    padding-bottom: 40px;
+    text-align: center;
+}
+h3{
+    letter-spacing: 2px;
+}
+.pictures{
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+}
+#pic1{
+    background-image: url(./images/desktop/image-deep-earth.jpg);
+    background-size: cover;
+    height:400px;
+}
+#pic2{
+    background-image: url(./images/desktop/image-night-arcade.jpg);
+}
+#pic3{
+    background-image: url(./images/desktop/image-soccer-team.jpg);
+}
+#pic4{
+    background-image: url(./images/desktop/image-grid.jpg);
+}
+#pic5{
+    background-image: url(./images/desktop/image-from-above.jpg);
+}
+#pic6{
+    background-image: url(./images/desktop/image-pocket-borealis.jpg);
+}
+#pic7{
+    background-image: url(./images/desktop/image-curiosity.jpg);
+}
+#pic8{
+    background-image: url(./images/desktop/image-fisheye.jpg);
+}
+.pic{
+    height:400px;
+    width:20%;
+    margin: 10px auto;
+    background-position: center;
+    border-radius: 10px;
+    background-size: cover;
+}
+h4{
+    color: white;
+    letter-spacing: 2px;
+    position: relative;
+    bottom:-300px;
+    left:10px;
+    font-size: 24px;
+    font-weight: lighter;
+}
+.third{
+    padding-bottom: 40px;
+}
+#see{
+    display: none;
+}
+.see{
+    color: black;
+    border: 1px solid black;
+    width:120px;
+    background-color: white;
+    height:40px;
+}
+.see:hover{
+    background-color: black;
+    color:white;
+}
+.see:active{
+    background-color: black;
+    color:white;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+.foottext{
+    width:80%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+}
+.menus{
+    display: flex;
+}
+.menu:hover{
+    text-decoration: underline;
+}
+.soc:hover{
+    text-decoration: underline;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+}
+.link{
+    display: flex;
+}
+#vr{
+    width: 60%;
+    border-radius: 5px;
+    margin-left:35px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+#vrtext{
+    width:70%;
+    margin: auto;
+}
+.creation{
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    margin-left: 5px;
+}
+.links{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.soc{
+    margin-left: 5px;
+}
+@media only screen and (max-width:600px){
+    .first{
+        width:100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height:500px;
+    }
+    header{
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .menut{
+        display: none;
+    }
+    #ham{
+        display: block;
+    }
+    #sec{
+        background-color: black;
+        color:white;
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-bottom: 10px;
+        margin: 0;
+        border-radius: 5px;
+        display: none;
+    }
+    .menu{
+        margin-top: 15px;
+        color:white;
+    }
+    #close{
+        position: relative;
+        top:10px;
+        right:-35px;
+    }
+    h1{
+        width:200px;
+        position:absolute;
+        top: 130px;
+        left:70px;
+        margin: 0px;
+    }
+    #vr{
+        width: 70%;
+        border-radius: 5px;
+        margin-left:50px;
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+    h3{
+        font-weight: lighter;
+        width:170px;
+        margin: 0px auto;
+    }
+    #vrtext{
+        width:70%;
+        margin: 20px auto;
+        color:hsl(0, 0%, 55%);
+    }
+    .row{
+        flex-direction: column;
+    }
+    #pic1{
+        height:200px;
+        width:70%;
+        margin: 10px auto;
+        background-position: center;
+        border-radius: 10px;
+        background-image: url(./images/mobile/image-deep-earth.jpg);
+    }
+    #pic2{
+        background-image: url(./images/mobile/image-night-arcade.jpg);
+    }
+    #pic3{
+        background-image: url(./images/mobile/image-soccer-team.jpg);
+    }
+    #pic4{
+        background-image: url(./images/mobile/image-grid.jpg);
+    }
+    #pic5{
+        background-image: url(./images/mobile/image-from-above.jpg);
+    }
+    #pic6{
+        background-image: url(./images/mobile/image-pocket-borealis.jpg);
+    }
+    #pic7{
+        background-image: url(./images/mobile/image-curiosity.jpg);
+    }
+    #pic8{
+        background-image: url(./images/mobile/image-fisheye.jpg);
+    }
+    .pic{
+        height:200px;
+        width:70%;
+        margin: 10px auto;
+        background-position: center;
+        border-radius: 10px;
+    }
+    #see{
+        margin: auto;
+        display: block;
+    }
+    #seeall{
+        display: none;
+    }
+    .menus{
+        flex-direction: column;
+    }
+    .soc{
+        margin-left: 10px;
+    }
+    .link{
+        margin: auto;
+    }
+    .foottext{
+        flex-direction: column;
+        text-align: center;
+    }
+    .menu:active{
+        text-decoration: underline;
+    }
+    h4{
+        color: white;
+        letter-spacing: 2px;
+        position: relative;
+        bottom:-115px;
+        left:10px;
+        font-size: 24px;
+        font-weight: lighter;
+    }
+}
+@media (min-width:851px) and (max-width:1050px){
+    h3{
+        margin-left: 30px;
+    }
+    #seeall{
+        margin-right: 30px;
+    }
+    #about{
+        margin-left: 350px;
+    }
+}
+@media (min-width:601px) and (max-width:850px){
+    #about{
+        margin-left: 100px;
+    }
+    .row{
+        flex-direction: row;
+    }
+    h4{
+        bottom: -300px;
+    }
+    h3{
+        margin-left: 10px;
+    }
+    #seeall{
+        margin-right: 10px;
+    }
+}
+@media (min-width:1051px) and (max-width:1250px){
+    h3{
+        margin-left: 35px;
+    }
+    #seeall{
+        margin-right: 35px;
+    }
+    #about{
+        margin-left: 450px;
+    }
+}
+@media (min-width:1251px) and (max-width:1550px){
+    h3{
+        margin-left: 40px;
+    }
+    #seeall{
+        margin-right: 40px;
+    }
+    #about{
+        margin-left: 550px;
+    }
+}
+@media (min-width:1551px) and (max-width:1850px){
+    h3{
+        margin-left: 45px;
+    }
+    #seeall{
+        margin-right: 45px;
+    }
+    #about{
+        margin-left: 750px;
+    }
+}
